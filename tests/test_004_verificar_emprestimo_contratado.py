@@ -1,4 +1,4 @@
-def test_004_verificar_emprestimo_contradado(common_page, login_page, home_page, emprestimos_page) -> None:
+def test_004_verificar_emprestimo_contratado(common_page, login_page, home_page, emprestimos_page) -> None:
     login_page.login("user1", "pass1")
     home_page.acessar_menu("Empréstimos")
     emprestimos_page.selecionar_valor_emprestimo("2.000,00")
